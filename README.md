@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Highcharts Bar Chart with Target Values
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a React component that renders a bar chart using the Highcharts library. The chart visualizes data with associated target values, providing insights into how well the values match their targets.
 
-## Available Scripts
+## Features
+### 1. Data Visualization
+The main feature of this chart is its ability to visually represent data using bars. Each bar corresponds to a specific data point and indicates its value. The height of the bar is proportional to the value it represents.
 
-In the project directory, you can run:
+### 2. Target Line
+In addition to the data bars, the chart includes a target line. This line represents the desired target value for each data point. The target line is displayed as an orange line, making it easy to distinguish from the data bars.
 
-### `npm start`
+### 3. Data with Status
+The chart provides a clear indication of whether each data point has reached its target or not. Data points that have met or exceeded their target are highlighted in red, while those that have not reached their target are displayed in blue. This visual distinction helps users quickly assess the performance of each data point.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 4. Interactive and Responsive
+The chart is interactive, allowing users to hover over data points to view specific values. It's also responsive, adjusting its size and layout to fit various screen sizes and devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Use
 
-### `npm test`
+### Clone the project
+```
+git clone https://github.com/ozgur-okt/highchart
+```
+### Install the required packages:
+```
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="1626" alt="Screenshot 2023-08-14 at 10 48 37" src="https://github.com/ozgur-okt/highchart/assets/73358116/185e3fe6-b376-4e00-a140-86edffab7957">
